@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/ropnop/kerbrute/session"
-	"github.com/ropnop/kerbrute/util"
+	"github.com/jd580/kerbrute/session"
+	"github.com/jd580/kerbrute/util"
 	"github.com/spf13/cobra"
 )
 

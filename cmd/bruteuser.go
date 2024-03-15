@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ropnop/kerbrute/util"
+	"github.com/jd580/kerbrute/util"
 
 	"github.com/spf13/cobra"
 )
