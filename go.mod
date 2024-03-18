@@ -3,7 +3,7 @@ module github.com/jd580/kerbrute
 go 1.18
 
 require (
-	github.com/jd580/gokrb5/v8 v8.0.0-20240315223507-77a7e1ce948b
+	github.com/jd580/gokrb5/v8 v8.0.0-20240315232818-50fb11f793a8
 	github.com/op/go-logging v0.0.0-20160315200505-970db520ece7
 	github.com/spf13/cobra v1.8.0
 )
