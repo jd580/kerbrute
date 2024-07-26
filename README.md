@@ -3,7 +3,12 @@
 
 A tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication
 
-Grab the latest binaries from the [releases page](https://github.com/jd580/kerbrute/releases/latest) to get started.
+This version does not cause the two failed login attempts as seen in https://github.com/ropnop/kerbrute/issues/58.  Also, this version incorporates https://github.com/ropnop/kerbrute/pull/41.
+
+## Install
+
+go install github.com/jd580/kerbrute@latest
+
 
 ## Background
 This tool grew out of some [bash scripts](https://github.com/jd580/kerberos_windows_scripts) I wrote a few years ago to perform bruteforcing using the Heimdal Kerberos client from Linux. I wanted something that didn't require privileges to install a Kerberos client, and when I found the amazing pure Go implementation of Kerberos [gokrb5](https://github.com/jcmturner/gokrb5), I decided to finally learn Go and write this. 
